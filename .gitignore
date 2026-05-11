@@ -1,0 +1,27 @@
+# 보안 — 절대 커밋 금지
+.env
+*.json.key
+*-credentials.json
+
+# JSON 파일은 기본 제외 (credential / usage 등 보호) — 본문 데이터만 예외 허용
+*.json
+!bible.json
+
+# 로컬 사용량 추적
+.usage.json
+
+# 출력물
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# OS / 에디터
+.DS_Store
+.vscode/
+.idea/

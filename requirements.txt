@@ -1,0 +1,4 @@
+google-cloud-texttospeech>=2.16
+requests>=2.31
+pydub>=0.25
+python-dotenv>=1.0
