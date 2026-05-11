@@ -1,5 +1,4 @@
-# haya-audio
-
+# tts-for-haya
 ESV / 개역개정 성경 한 장을 절별 mp3 + 합본 mp3로 생성하는 개인용 CLI.
 
 ## 빠른 시작
